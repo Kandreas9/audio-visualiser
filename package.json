@@ -1,0 +1,15 @@
+{
+	"name": "audio-visualiser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+    "watch": "esbuild ./src/audioVisualiser.js --outfile=./dist/audio-visualiser.js --bundle --watch",
+		"build": "esbuild ./src/audioVisualiser.js --bundle --outfile=./dist/audio-visualiser.js --minify --sourcemap"
+	},
+	"author": "Smor",
+	"license": "ISC",
+	"devDependencies": {
+		"esbuild": "^0.14.39"
+	}
+}
